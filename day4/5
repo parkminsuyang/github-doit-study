@@ -1,0 +1,8 @@
+#ssh 키 생성
+$ cd ~
+$ ssh-keygen -t ed25519 -C "이메일주소"
+$ eval "$(ssh-agent -s)"
+$ ssh-add ~/.ssh/id~~~~
+#깃허브에 퍼블릭 키 전송
+$ clip <~/.ssh/id~~~.pub
+#ssh 주소로 원격 저장소 연결
