@@ -1,1 +1,4 @@
 $  git push -u origin main #브랜치를 origin의 main 브랜치로 푸시
+$ git commit -am "add b"
+$ git push
+$ git pull origin main #origin to main
