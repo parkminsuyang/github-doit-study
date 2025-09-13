@@ -1,0 +1,3 @@
+$ git log --online --branches #브랜치마다 최신 커밋을 한눈에 살펴볼 수 있음
+$ git log --online --branches #그래프 형태
+$  git log main..apple # main에는 없고 apple에만 있는 커밋을 보여줌
