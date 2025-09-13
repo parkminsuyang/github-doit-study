@@ -1,0 +1,10 @@
+$ git init
+$ git add work.txt
+$ git commit -m "work1"
+$ git branch o2
+$ git add main.txt
+$ git commit -m "main work 2"
+$ git switch o2
+$ git commit -m "o2 work 2"
+$ git switch main
+$ git merge o2 #main에 o2병합
