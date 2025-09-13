@@ -1,0 +1,4 @@
+$ cd c: #c드라이브 지정, : 필요
+$ mkdir helllo-git #디렉터리 제작
+$ cd hello-git #제작한 디렉터리로 이동
+$ git init #현재 디렉터리에서 깃을 사용할 수 있도록 초기화
