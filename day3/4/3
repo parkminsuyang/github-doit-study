@@ -1,0 +1,10 @@
+$ git add init.txt; git commit -m "init"
+$ git branch topic #topic이라는 브랜치 생성
+$ touch m1; git add m1; git commit -m "m1" #touch로 빈 파일 생성
+$ touch m2; git add m2; git commit -m "m2" 
+$ git switch topic;
+$ touch t1; git add t1; git commit -m "t1"
+$ touch t2; git add t2; git commit -m "t2"
+$ touch t3; git add t3; git commit -m "t3"
+$ git switch main
+$ git cherry-pick 복사한커밋해시
