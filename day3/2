@@ -1,0 +1,11 @@
+$ git init #초기화
+$ git add work.txt
+$ git commit -m "work 1"
+$ git commit -am "work 2"
+$ git commit -am "work 3"
+$ git branch # 브랜치 확인(현재는 main)
+$ git branch apple
+$ git commit -am "main work 4" # main에 새로운 커밋 추가
+$ git log --online #한 줄에 한 커밋씩 확인
+$ git switch apple #브랜치 전환
+$ git log --online
