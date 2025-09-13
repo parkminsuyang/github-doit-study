@@ -1,0 +1,18 @@
+$ git restore hello.txt #작업 디렉터리의 수정사항 취소
+$ git add hello2.txt
+$ git status
+$ git restore --staged hello2.txt  #스테이징 취소
+$ git commit -am "message4" #스테이징&커밋
+$ git reset HEAD^ #최신 커밋 취소, 스테이징 취소
+$ git restore hello.txt #작업 디렉터리의 수정사항 취소
+$ git reset --soft HEAD^ #커밋 취소후 staged 상태
+$ git reset --mixed HEAD^ #커밋 취소 후 unstaged 상태
+$ git reset HEAD^ #mixed와 동일
+$ git add rev.txt #스테이징
+$ git commit -m "R1" #커밋
+$ git commit -am "R2" #스테이징&커밋
+$ git commit -am "R3"
+$ git commit -am "R4" #총 4번 커밋 
+$ git reset --hard 복사한커밋해시
+$ git commit -am "R5"
+$ git revert 복사한커밋해시 #변경 이력 취소
