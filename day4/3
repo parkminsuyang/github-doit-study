@@ -1,0 +1,5 @@
+$ git init
+$ git add f1.txt
+$ git commit -m "add a"
+$ git log
+$ git remote add origin 복사한원격저장소의https주소
