@@ -1,0 +1,5 @@
+$ git status # 깃 상태 확인
+$ git add hello.txt #hello.txt 스테이징
+$ git commit -m "message1" #커밋함
+$ git log #저장된 버전 확인
+$ git commit -am "message2" #스테이징&커밋
