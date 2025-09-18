@@ -1,0 +1,14 @@
+$ git clone https://github.com/parkminsuyang/test1.git .
+
+#git_home에서
+$ git commit -am "add c"
+$ git push
+
+#git_office에서
+$ git pull
+$ git commit -am "add d"
+$ git push
+
+#확인용
+$ git pull
+$ git log
