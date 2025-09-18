@@ -1,0 +1,14 @@
+$ git log #깃 내역 확인 ->깃허브(원격 저장소)와 지역 저장소 상황 둘 다 확인 가능
+$ git add f3.txt #지역 저장소에만
+$ git commit -m "create f3.txt" 
+$ git log --oneline #지역 저장소에만 f3.txt있는거 확인
+$ git status 
+$ git push #깃허브에 업데이트
+$ git log --oneline
+
+$ git fetch #원격 저장소 커밋 내용 불러오기
+$ ls -al
+$ git log --oneline
+$ git status
+$ git diff HEAD origin/main #원격 저장소와 지역 저장소 차이 확인
+$ git merge origin/main #커밋 내용 지역 저장소에 합치기
