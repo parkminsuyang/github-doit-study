@@ -1,0 +1,5 @@
+$ git clone https://github.com/parkminsuyang/p
+$ git switch plan 
+$ git add plan-1.txt
+$ git commit -m "plan-1"
+$ git push
